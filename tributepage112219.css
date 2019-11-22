@@ -1,0 +1,48 @@
+//user stories 8-9 are css.
+html {
+  font-size: 10px;
+}
+#img-caption {font-size: 20px;
+  font-style: italic;
+}
+body {
+  background-color: cornsilk;
+}
+h1 {
+  font-size: 50px;
+  text-align: center;
+}
+p {
+  font-size: 30px;
+  text-align: center;
+}
+div {
+  text-align: center;
+  font-size: 30px;
+}
+h2 {
+  text-align: center;
+  font-size: 30px;
+}
+ul {
+  text-align: left;
+  max-width: 550px;
+  margin: 0 auto 50px auto;
+  font-size: 30px;
+}
+li {
+  text-align: left;
+  font-size: 30px;
+  margin: 16px 0;
+}
+blockquote {
+  font-style: italic;
+  max-width: 545px;
+  margin: 0 auto 50px auto;
+  text-align: left;
+}
+cite {
+  font-size: 30px;
+  text-align: right;
+  margin: 0 auto 150px auto;
+}
