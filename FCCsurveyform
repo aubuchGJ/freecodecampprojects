@@ -1,0 +1,198 @@
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+
+
+<h1 id="title">
+  Taco form
+</h1>
+<p id="description">
+  Fill out the form below to customize your taco
+</p>
+<form id="survey-form">
+      <label id="name-label" for="name">Name</label>
+      <input
+        type="text"
+        name="name"
+        id="name"
+        class="form-control"
+        placeholder="enter your name"
+        required
+             />
+               <label id="email-label" for="email">Email</label>
+      <input
+        type="email"
+        name="email"
+        id="email"
+        class="form-control"
+        placeholder="enter your email"
+        required
+             />
+                <label id="number-label" for="number"
+        >Number of tacos <span class="clue">(optional)</span></label
+      >
+      <input
+        type="number"
+        name="age"
+        id="number"
+        min="10"
+        max="99"
+        class="form-control"
+        placeholder="??"
+      />
+      <p> Which option best describes your relationship with tacos?</p>
+      <select id="dropdown" name="role" class="form-control" required>
+        <option disabled selected value>Select description</option>
+        <option value="student">Hate them</option>
+        <option value="job">Love them</option>
+        <option value="preferNo">Prefer not to say</option>
+        <option value="other">Other</option>
+      </select>  
+                             <p>Who will you eat with?</p>
+      <label>
+        <input
+          name="user-recommend"
+          value="definitely"
+          type="radio"
+          class="input-radio"
+          checked
+        />Alone</label
+      >
+                              <label>
+        <input
+          name="user-recommend"
+          value="definitely"
+          type="radio"
+          class="input-radio"
+          checked
+        />Alone</label
+      >
+                             
+                              <label>
+        <input
+          name="user-recommend"
+          value="definitely"
+          type="radio"
+          class="input-radio"
+          checked
+        />Alone</label
+      >
+                             
+                              <label>
+        <input
+          name="user-recommend"
+          value="definitely"
+          type="radio"
+          class="input-radio"
+          checked
+        />Alone</label
+      >
+                             
+                             
+                              <p>
+        What do you want on your tacos?
+        <span class="clue">(Check all that apply)</span>
+      </p>
+
+      <label
+        ><input
+          name="prefer"
+          value="ground beef"
+          type="checkbox"
+          class="input-checkbox"
+        />ground beef</label
+      >
+      <label>
+        <input
+          name="prefer"
+          value="back-end-projects"
+          type="checkbox"
+          class="input-checkbox"
+        />beans</label
+      >
+      <label
+        ><input
+          name="prefer"
+          value="shredded cheese"
+          type="checkbox"
+          class="input-checkbox"
+        />shredded cheese</label
+      >
+      <label
+        ><input
+          name="prefer"
+          value="lettuce"
+          type="checkbox"
+          class="input-checkbox"
+        />lettuce</label
+      >
+      <label
+        ><input
+          name="prefer"
+          value="open-source-community"
+          type="checkbox"
+          class="input-checkbox"
+        />tears</label
+      >
+      <label
+        ><input
+          name="prefer"
+          value="salsa"
+          type="checkbox"
+          class="input-checkbox"
+        />salsa</label
+      >
+      <label
+        ><input
+          name="prefer"
+          value="onions"
+          type="checkbox"
+          class="input-checkbox"
+        />onions</label
+      >
+      <label
+        ><input
+          name="prefer"
+          value="tomatoes"
+          type="checkbox"
+          class="input-checkbox"
+        />tomatoes</label
+      >
+      <label
+        ><input
+          name="prefer"
+          value="green onions"
+          type="checkbox"
+          class="input-checkbox"
+        />green onions</label
+      >
+      <label
+        ><input
+          name="prefer"
+          value="jalapenos"
+          type="checkbox"
+          class="input-checkbox"
+        />jalapenos</label
+      >
+      <label
+        ><input
+          name="prefer"
+          value="sour cream"
+          type="checkbox"
+          class="input-checkbox"
+        />sour cream</label
+      >
+
+      
+                                  <p>Any advise for someone with a taco problem?</p>
+      <textarea
+        id="comments"
+        class="input-textarea"
+        name="comment"
+        placeholder="Help me..."
+      ></textarea>
+                                
+                                   <button type="submit" id="submit" class="submit-button">
+        Submit
+      </button>
+
+</form>
